@@ -15,7 +15,9 @@ const Home = () => {
       <Header />
       <div className="home-container">
         <div className="sub-container">
-          <h1 className="heading">Find The Job That Fits Your Life</h1>
+          <h1 className="heading" style={{fontSize: '60px'}}>
+            Find The Job That Fits Your Life
+          </h1>
           <p className="job-desc">
             Millions of people are searching for jobs, salary information,
             company reviews. Find the job that fits your abilities and
