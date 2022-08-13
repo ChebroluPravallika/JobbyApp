@@ -23,7 +23,9 @@ const JobItem = props => {
           className="company-logo-url"
         />
         <div>
-          <h1 className="title">{title}</h1>
+          <h1 className="title" style={{fontSize: '20px'}}>
+            {title}
+          </h1>
           <div className="rating-container">
             <AiFillStar className="star-icon" />
             <p className="count-rating">{rating}</p>
@@ -33,13 +35,16 @@ const JobItem = props => {
       <h1 className="descHeading">Description</h1>
       <p className="similar-desc">{jobDescription}</p>
       <div className="locationCont">
-        <div>
-          <GoLocation className="location-logo" />
-          <p className="location">{location}</p>
+        <div style={{display: 'flex', flexDirection: 'row'}}>
+          <GoLocation className="location-logo" style={{paddingRight: '5px'}} />
+          <p style={{color: 'white'}}>{location}</p>
         </div>
-        <div>
-          <BsBriefcaseFill className="location-logo-brief" />
-          <p className="location">{employmentType}</p>
+        <div style={{display: 'flex', flexDirection: 'row'}}>
+          <BsBriefcaseFill
+            className="location-logo-brief"
+            style={{paddingRight: '5px'}}
+          />
+          <p style={{color: 'white'}}>{employmentType}</p>
         </div>
       </div>
     </li>
