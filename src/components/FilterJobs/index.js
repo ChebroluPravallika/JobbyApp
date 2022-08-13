@@ -32,7 +32,7 @@ const FilterJobs = props => {
 
   const renderEmploymentType = () => (
     <div className="salary-container">
-      <h1 className="salary-heading">Type of Employment</h1>
+      <h1 className="salHeading">Type of Employment</h1>
       <ul className="salary-range-container">{getEmploymentTypeList()}</ul>
     </div>
   )
