@@ -33,6 +33,7 @@
   border: none;
   margin-right: 55px;
   width: 110px;
+  cursor: pointer;
 }
 .job {
   margin-left: 40px;
