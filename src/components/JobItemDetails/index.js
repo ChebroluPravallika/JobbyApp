@@ -142,7 +142,11 @@ class JobItemDetails extends Component {
           </div>
           <hr className="line" />
           <div className="description-container">
-            <h1 className="desc-heading">Description</h1>
+            <h1
+              style={{color: 'white', fontSize: '25px', paddingBottom: '15px'}}
+            >
+              Description
+            </h1>
             <a className="visit-link" href={companyWebsiteUrl}>
               Visit
               <BiLinkExternal className="bi-link" />
