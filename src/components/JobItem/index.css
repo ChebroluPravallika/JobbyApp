@@ -2,7 +2,7 @@
   background-color: #202020;
   margin: 20px;
   padding: 28px;
-  width: 370px;
+  width: 340px;
   border-radius: 15px;
 }
 .profileContainer {
@@ -25,9 +25,11 @@
 }
 .descHeading {
   color: #fff;
-  font-size: 24px;
+  font-size: 21px;
   font-family: 'Roboto';
   margin-bottom: 15px;
+  padding-bottom: 5px;
+  padding-top: 10px;
 }
 .similar-desc {
   color: #fff;
